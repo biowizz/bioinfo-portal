@@ -1,0 +1,18 @@
+type: job
+title: "Bioinformatician (f/m/d) — Multi-Omics Data Analysis and Integration (COMBI-OMICS)"
+organization: "Heidelberg University"
+location: "Heidelberg, Germany"
+remote: false
+deadline: "2026-09-18"
+start_date: null
+end_date: null
+tags: [multi-omics, nextflow, proteomics, transcriptomics, bioinformatics]
+source_url: "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40177"
+added_on: "2026-08-24"
+description: >
+  Two-year TV-L E13 position building reproducible Nextflow/nf-core workflows
+  for multi-omics data (metabolomics, proteomics, transcriptomics, spatial
+  profiling) across Heidelberg University's Core Facilities. Requires a PhD
+  in bioinformatics/computational biology and strong R/Python skills; part
+  of the COMBI-OMICS initiative bridging experimental cores and biological
+  interpretation.

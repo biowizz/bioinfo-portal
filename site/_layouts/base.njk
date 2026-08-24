@@ -8,16 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="{{ '/style.css' | url }}">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/"><span class="brand-mark">🧬</span> Bioinfo Portal</a>
+      <a class="brand" href="{{ '/' | url }}"><span class="brand-mark">🧬</span> Bioinfo Portal</a>
       <nav>
-        <a href="/" class="{{ 'is-active' if page.url == '/' }}">All</a>
-        <a href="/conferences/" class="{{ 'is-active' if page.url == '/conferences/' }}">Conferences</a>
-        <a href="/jobs/" class="{{ 'is-active' if page.url == '/jobs/' }}">Jobs</a>
+        <a href="{{ '/' | url }}" class="{{ 'is-active' if page.url == '/' }}">All</a>
+        <a href="{{ '/conferences/' | url }}" class="{{ 'is-active' if page.url == '/conferences/' }}">Conferences</a>
+        <a href="{{ '/jobs/' | url }}" class="{{ 'is-active' if page.url == '/jobs/' }}">Jobs</a>
       </nav>
     </div>
   </header>
@@ -32,6 +32,6 @@
     </div>
   </footer>
 
-  <script src="/app.js"></script>
+  <script src="{{ '/app.js' | url }}"></script>
 </body>
 </html>

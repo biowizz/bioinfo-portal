@@ -39,5 +39,6 @@ module.exports = function (eleventyConfig) {
       output: "_site",
       layouts: "_layouts",
     },
+    pathPrefix: "/bioinfo-portal/",
   };
 };

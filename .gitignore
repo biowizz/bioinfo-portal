@@ -4,3 +4,6 @@ _site/
 .cache/
 *.log
 .DS_Store
+.venv/
+__pycache__/
+*.pyc

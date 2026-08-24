@@ -1,0 +1,32 @@
+{% macro card(item) %}
+<article class="card"
+  data-type="{{ item.type }}"
+  data-tags="{{ item.tags | join('|') }}"
+  data-deadline="{{ item.deadline or '' }}">
+  <div class="card-top">
+    <span class="badge badge-{{ item.type }}">{{ item.type }}</span>
+    {% if item.remote %}<span class="badge badge-remote">remote</span>{% endif %}
+  </div>
+  <h3 class="card-title">
+    <a href="{{ item.source_url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+  </h3>
+  <p class="card-org">{{ item.organization }}{% if item.location %} — {{ item.location }}{% endif %}</p>
+
+  <dl class="card-meta">
+    {% if item.deadline %}
+    <div><dt>Deadline</dt><dd>{{ item.deadline }}</dd></div>
+    {% endif %}
+    {% if item.start_date %}
+    <div><dt>Dates</dt><dd>{{ item.start_date }}{% if item.end_date %} – {{ item.end_date }}{% endif %}</dd></div>
+    {% endif %}
+  </dl>
+
+  {% if item.description %}<p class="card-desc">{{ item.description }}</p>{% endif %}
+
+  {% if item.tags and item.tags.length %}
+  <ul class="tag-list">
+    {% for tag in item.tags %}<li class="tag">{{ tag }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+</article>
+{% endmacro %}

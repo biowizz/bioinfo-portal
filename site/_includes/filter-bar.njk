@@ -1,0 +1,31 @@
+{% macro filterBar(showTypeFilter) %}
+<div class="filter-bar" data-filter-bar>
+  {% if showTypeFilter %}
+  <label>
+    Type
+    <select data-filter-type>
+      <option value="all">All</option>
+      <option value="conference">Conferences</option>
+      <option value="job">Jobs</option>
+    </select>
+  </label>
+  {% endif %}
+
+  <label>
+    Tag
+    <select data-filter-tag>
+      <option value="all">All tags</option>
+    </select>
+  </label>
+
+  <label>
+    Sort by deadline
+    <select data-sort-deadline>
+      <option value="asc">Soonest first</option>
+      <option value="desc">Latest first</option>
+    </select>
+  </label>
+
+  <span class="filter-count" data-filter-count></span>
+</div>
+{% endmacro %}

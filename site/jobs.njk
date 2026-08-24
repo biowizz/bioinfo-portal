@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: "Jobs — Bioinfo Portal"
+permalink: /jobs/index.html
+---
+{% import "listing-card.njk" as cards %}
+{% import "filter-bar.njk" as filters %}
+
+<h1>Jobs</h1>
+<p class="lede">Bioinformatics job openings.</p>
+
+{{ filters.filterBar(false) }}
+
+<div class="card-grid" data-card-grid>
+  {% for item in jobs %}
+  {{ cards.card(item) }}
+  {% endfor %}
+</div>
+
+<p class="empty-state" data-empty-state hidden>No listings match those filters.</p>

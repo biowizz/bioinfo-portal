@@ -1,0 +1,15 @@
+type: job
+title: "Postdoctoral Fellow — Computational Genomics"
+organization: "Manipal Academy of Higher Education"
+location: "Manipal, Karnataka, India"
+remote: true
+deadline: "2026-09-30"
+start_date: null
+end_date: null
+tags: [genomics, cancer, bioinformatics, postdoc]
+source_url: "https://manipal.edu/careers/postdoc-computational-genomics"
+added_on: "2026-08-24"
+description: >
+  Remote-friendly postdoctoral fellowship analyzing cancer genomics
+  datasets, developing variant-calling pipelines, and mentoring
+  graduate students. Strong Python/Nextflow skills preferred.

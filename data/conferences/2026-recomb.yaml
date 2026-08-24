@@ -1,0 +1,15 @@
+type: conference
+title: "RECOMB 2026 — Research in Computational Molecular Biology"
+organization: "RECOMB Steering Committee"
+location: "Boston, MA, USA"
+remote: false
+deadline: "2026-01-10"
+start_date: "2026-04-26"
+end_date: "2026-04-29"
+tags: [computational-biology, algorithms, genomics, conference]
+source_url: "https://recomb.org/recomb2026"
+added_on: "2026-08-24"
+description: >
+  Premier conference on computational molecular biology research,
+  spanning sequence analysis, structural biology, and algorithm
+  design. Paper submission deadline is January 10.

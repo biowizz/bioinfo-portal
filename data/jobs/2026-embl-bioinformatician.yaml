@@ -1,0 +1,16 @@
+type: job
+title: "Postdoctoral Bioinformatician"
+organization: "EMBL Heidelberg"
+location: "Heidelberg, Germany"
+remote: false
+deadline: "2026-10-15"
+start_date: null
+end_date: null
+tags: [genomics, single-cell, postdoc]
+source_url: "https://www.embl.org/jobs/position/EMBL00001"
+added_on: "2026-08-24"
+description: >
+  Postdoctoral position developing computational methods for
+  single-cell multi-omics data analysis in a collaborative genomics
+  group. Requires a PhD in bioinformatics, computer science, or a
+  related field and experience with Python or R.

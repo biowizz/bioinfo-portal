@@ -1,0 +1,16 @@
+type: conference
+title: "ISMB/ECCB 2026 — Intelligent Systems for Molecular Biology"
+organization: "ISCB"
+location: "Vienna, Austria"
+remote: false
+deadline: "2026-02-15"
+start_date: "2026-07-19"
+end_date: "2026-07-23"
+tags: [computational-biology, genomics, machine-learning, conference]
+source_url: "https://www.iscb.org/ismbeccb2026"
+added_on: "2026-08-24"
+description: >
+  The flagship annual conference of the International Society for
+  Computational Biology, jointly held with ECCB this year. Abstract
+  submission deadline is February 15; covers genomics, proteomics,
+  systems biology, and machine learning applications in life science.
